@@ -67,6 +67,9 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);color:va
 .empty{padding:40px 0;color:var(--soft);font-family:var(--display)}
 .foot{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);display:grid;gap:12px;font-family:var(--display);color:var(--soft);font-size:15px}
 .foot strong{color:var(--ink)}
+.foot .talk{color:var(--ink);font-size:17px}
+.foot .talk a{color:var(--orange-ink);font-weight:600;text-decoration:none;border-bottom:1.5px solid currentColor}
+.foot .talk a:hover{color:var(--orange)}
 /* detail sheet */
 .scrim{position:fixed;inset:0;background:var(--shade);display:flex;align-items:flex-start;justify-content:center;overflow:auto;z-index:20;padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 32px max(16px,env(safe-area-inset-left,0px))}
 .sheet{background:var(--paper);border-radius:12px;max-width:860px;width:100%;margin-top:4vh;overflow:hidden;border:1px solid var(--line)}
@@ -126,6 +129,7 @@ select{font:inherit;border:1px solid var(--line);background:var(--card);color:va
 
   <footer class="foot">
     <div><strong>How the library works.</strong> Every Wisdogram is listed now. Each week one opens fully, with a step-by-step walkthrough on What Matters. Paid subscribers also get the high-definition Wisdogram and a practice for living it out.</div>
+    <div class="talk">Want to talk something through? <a href="https://lukergilbert.com/?from=library#where-are-you">Start a conversation &rarr;</a></div>
     <div>Scripture is quoted from the ESV. Wisdogram™ Luke Gilbert © lukergilbert.com</div>
   </footer>
 </div>
